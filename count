@@ -1,0 +1,10 @@
+local plr=game.Players.LocalPlayer
+local inv=#plr.Backpack:GetChildren()
+repeat
+	wait(0.3)
+	local num = 0
+	for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
+		num += 1
+	end
+	ta.Text = num.
+until num == 9999999999999
